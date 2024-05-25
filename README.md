@@ -1,4 +1,4 @@
-1.
+1. all apis
 
 https://dummyjson.com/products
 https://dummyjson.com/carts
