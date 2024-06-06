@@ -33,6 +33,7 @@ const Header = () => {
             <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/users">Users</Link>
             <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/register">Register</Link>
             <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/login">Login</Link>
+            <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/logout">Logout</Link>
         
         <div style={{ marginLeft: "400px", marginTop: "20px" }}>
           <input  type='text' onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Search" />
