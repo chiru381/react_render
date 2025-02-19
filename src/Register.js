@@ -27,7 +27,7 @@ const Register = () => {
   return (
     <div style={{ margin: "100px" }}>
       <form onSubmit={submitHandler} style={{ paddingLeft: "80px", backgroundColor: "aqua", marginLeft: "350px", marginRight: "400px", borderRadius: "20px", paddingTop: "10px", paddingBottom: "20px" }}>
-        <h3 style={{ color: "blueviolet" }}>Registration Form</h3>
+        <h3 style={{ color: "blueviolet" }}>Register Form</h3>
         <input type='text' name='username' onChange={changeHandler} value={username}  placeholder="username" /><br/> 
         <input type='text' name='password' onChange={changeHandler} value={password} placeholder="password" /><br/> 
         <input type='text' name='confirmpassword' onChange={changeHandler} value={confirmpassword} placeholder="confirmpassword" /><br/> 
